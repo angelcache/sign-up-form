@@ -67,6 +67,10 @@ body img.awning {
   #background {
     flex-direction: column;
   }
+
+  main {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
