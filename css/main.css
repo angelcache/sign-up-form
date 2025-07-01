@@ -2,10 +2,29 @@ main {
   display: flex;
 }
 
+main .sign-up-form,
+main .savori-container {
+  flex: 1 1 50%;
+}
+
+.sign-up-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.form-img {
+  background-image: url(../assets/img/signupForm.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 539px;
+  height: 734px;
+}
+
 .savori-container {
   display: flex;
   flex-direction: column;
-  width: 50%;
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -14,4 +33,15 @@ main {
 .cat-mascot {
   position: absolute;
   width: 200px;
+}
+
+.card-static {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/img/greenCard.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 481px;
+  height: 428px;
 }

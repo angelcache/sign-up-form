@@ -19,12 +19,39 @@
   <main>
     <div class="savori-container">
       <img src="assets/img/icon.svg" alt="Savori Icon">
-      <img class="card-static" src="assets/img/greenCard.png" alt="Green Box">
-      <img class="cat-mascot" src="assets/img/catMascot.gif" alt="Cat Mascot Gif">
+      <div class="card-static">
+        <img class="cat-mascot" src="assets/img/catMascot.gif" alt="Cat Mascot Gif">
+      </div>
     </div>
 
     <div class="sign-up-form">
-      <img src="assets/img/signupForm.png" alt="Sign Up Form">
+      <form action="" method="post" class="form-img">
+        <div class="input-pair">
+          <label for="first_name">first name:</label>
+          <input type="text" id="first_name" name="first_name">
+          <br>
+          <label for="last_name">last name:</label>
+          <input type="text" id="last_name" name="last_name">
+        </div>
+
+        <div class="input-pair">
+          <label for="user_email">email:</label>
+          <input type="email" id="user_email" name="email" placeholder="angel@gmail.com">
+          <br>
+          <label for="user_number">phone number:</label>
+          <input type="tel" id="user_number" name="phone" placeholder="123-456-7890">
+        </div>
+
+        <div class="input-pair">
+          <label for="user_pass">password:</label>
+          <input type="password" id="user_pass" name="password">
+          <br>
+          <label for="user_pass_confirm">confirm password:</label>
+          <input type="password" id="user_pass_confirm" name="password_confirm">
+        </div>
+        <br>
+
+      </form>
     </div>
     
   </main>

@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5 {
 
 html, body {
   width: 100vw;
-  height:100vh;
+  height: 100vh;
   margin: 0;
   overflow: hidden;
 }
@@ -49,6 +49,11 @@ img {
   z-index: -1;
 }
 
+#background img {
+  flex: 1 1 50%;
+  height: 100%;
+}
+
 body img.awning {
   position: relative;
   left: 0;
@@ -64,6 +69,10 @@ body img.awning {
     max-width: none;
   }
 
+  .sign-up-form {
+    padding-left: 2vw;
+  }
+
   #background {
     flex-direction: column;
   }
@@ -71,12 +80,20 @@ body img.awning {
   main {
     flex-direction: column;
   }
+
+  /* main .form-img {
+    width: 350px;
+  } */
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
   .awning, .awning-bottom {
     width: 200vw;
     max-width: none;
+  }
+
+  .sign-up-form {
+    padding-left: 4.5vw;
   }
 }
 
@@ -86,9 +103,17 @@ body img.awning {
     width: 200vw;
     max-width: none;
   }
+  .sign-up-form {
+    padding-left: 3.5vw;
+  }
+
+  /* main .form-img {
+    width: 439px;
+  } */
 }
 
-#background img {
-  flex: 1 1 50%;
-  height: 100%;
+@media (min-width: 1601px) {
+  /* main .form-img {
+    width: 500px;
+  } */
 }
