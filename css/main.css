@@ -28,20 +28,24 @@ main .savori-container {
   height: 100%;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2%;
+  gap: 10px;
 }
 
 .cat-mascot {
   position: absolute;
-  width: 200px;
+  width: 350px;
+  height: auto;
+  margin-bottom: 9px;
 }
 
 .card-static {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: last baseline;
   background-image: url(../assets/img/greenCard.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 481px;
-  height: 428px;
+  height: 400px;
 }
