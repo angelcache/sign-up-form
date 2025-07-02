@@ -49,3 +49,52 @@ main .savori-container {
   width: 481px;
   height: 400px;
 }
+
+form {
+  position: relative;
+}
+
+form p {
+  font-family: Balsamiq Sans, Arial;
+}
+
+.welcome-text {
+  background-image: url(../assets/img/welcome-text.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 220px;
+  height: 80px;
+  top: 145px;
+  left: 60px;
+}
+
+.sign-up-form p {
+  color: var(--color-accent-1);
+  font-size: 23px;
+  position: absolute;
+  left: 60px;
+}
+
+.step-1-text {
+  top: 253px;
+}
+
+.step-2-text {
+  top: 380px;
+}
+.step-3-text {
+  bottom: 204px;
+}
+
+.meal-prep-icon {
+  background-image: url(../assets/img/meal-text.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 80px;
+  left: 45%;
+  top: 15px;
+  transform: translateX(-50%)
+}
