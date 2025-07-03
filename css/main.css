@@ -244,3 +244,24 @@ div .up {
 .input-pair-1 .email-login {
   margin-bottom: 6px;
 }
+
+footer {
+  position: relative;
+}
+
+.copyright-text {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.name-text {
+  color: white;
+  cursor: pointer;
+}
+
+.name-text:hover {
+  color: var(--color-highlight);
+}
