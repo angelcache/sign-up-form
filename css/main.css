@@ -297,3 +297,12 @@ footer {
   gap: 10px;
   align-items: center;
 }
+
+input:invalid:not(:focus):not(:placeholder-shown) {
+  background-image: url(../assets/img/cross.png);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: right 8px center;
+  border: 1px solid #e08484;
+  background-color: #ffe5e5
+}
