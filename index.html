@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,19 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
   <title>Welcome | Savori</title>
 </head>
+
 <body>
   <img class="awning" src="assets/img/bg-awning.png" alt="Awning">
   <section id="background">
     <img src="assets/img/bg-stripes.png" alt="Stripes BG">
     <img src="assets/img/bg-right.png" alt="Green BG">
   </section>
-  
+
   <main>
     <div class="savori-container">
       <img src="assets/img/icon.svg" alt="Savori Icon">
@@ -27,33 +31,40 @@
       </div>
     </div>
 
-    <div class="sign-up-form">
-      <form action="" method="post" 
-      class="form-img">
+    <section id="sign-up-form">
+      <form action="" method="post" class="form-img">
         <div class="meal-prep-icon"></div>
         <p class="welcome-text"></p>
 
         <div>
           <a class="member-text">Already a member?</a>
-          <a class="log-in-text">Log in</a>
+          <a href="#log-in-form" class="log-in-text">Log in</a>
         </div>
 
         <p class="step-1-text">Step 1:</p>
         <div class="input-pair-1">
-          <label for="first_name">first name:</label>
-          <input type="text" id="first_name" name="first_name">
-          <br>
-          <label for="last_name">last name:</label>
-          <input type="text" id="last_name" name="last_name">
+          <div>
+            <label for="first_name">first name:</label>
+            <input type="text" id="first_name" name="first_name">
+          </div>
+
+          <div>
+            <label for="last_name">last name:</label>
+            <input type="text" id="last_name" name="last_name">
+          </div>
         </div>
 
         <p class="step-2-text">Step 2:</p>
         <div class="input-pair-2">
-          <label for="user_email">email:</label>
-          <input type="email" id="user_email" name="email" placeholder="angel@gmail.com">
-          <br>
-          <label for="user_number">phone number:</label>
-          <input type="tel" id="user_number" name="phone" placeholder="123-456-7890">
+          <div>
+            <label for="user_email">email:</label>
+            <input type="email" id="user_email" name="email">
+          </div>
+
+          <div>
+            <label for="user_number">phone number:</label>
+            <input type="tel" id="user_number" name="phone">
+          </div>
         </div>
 
         <p class="step-3-text">Step 3:</p>
@@ -62,12 +73,12 @@
             <label for="user_pass">password:</label>
             <input type="password" id="user_pass" name="password">
           </div>
-          
+
           <div>
             <label for="user_pass_confirm">confirm password:</label>
             <input type="password" id="user_pass_confirm" name="password_confirm">
           </div>
-          
+
         </div>
         <br>
         <div>
@@ -78,12 +89,46 @@
           </button>
         </div>
       </form>
-    </div>
+    </section>
+
+    <section id="log-in-form">
+      <form action="" method="post" class="form-img">
+        <div class="meal-prep-icon"></div>
+        <p class="welcome-text"></p>
+
+        <div>
+          <a class="member-text">Not a member?</a>
+          <a href="#log-in-form" class="log-in-text">Sign Up</a>
+        </div>
+
+        <p class="step-1-text">Welcome Back:</p>
+        <div class="input-pair-1">
+          <div>
+            <label for="user_email">email:</label>
+            <input type="email" id="user_email" name="email">
+          </div>
+
+          <div>
+            <label for="user_pass">password:</label>
+            <input type="password" id="user_pass" name="password">
+          </div>
+        </div>
+        <br>
+        <div>
+          <button class="create-button">create account</button>
+          <button class="google-button">
+            <img src="assets/img/google-logo.svg" alt="Google Logo">
+            sign in with google
+          </button>
+        </div>
+    </section>
   </main>
 
   <footer>
     <img class="awning-bottom" src="assets/img/bg-awning-2.svg" alt="Bottom Awning">
   </footer>
 
+  <script src="js/script.js"></script>
 </body>
+
 </html>

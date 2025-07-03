@@ -2,12 +2,12 @@ main {
   display: flex;
 }
 
-main .sign-up-form,
+main #sign-up-form,
 main .savori-container {
   flex: 1 1 50%;
 }
 
-.sign-up-form {
+#sign-up-form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +69,7 @@ form p {
   left: 60px;
 }
 
-.sign-up-form p {
+#sign-up-form p {
   color: var(--color-accent-1);
   font-size: 23px;
   position: absolute;
@@ -81,8 +81,9 @@ form p {
 }
 
 .step-2-text {
-  top: 380px;
+  top: 376px;
 }
+
 .step-3-text {
   bottom: 204px;
 }
@@ -121,10 +122,6 @@ form p {
   color: var(--color-accent-2);
 }
 
-input::placeholder {
-  color: var(--color-secondary-2);
-}
-
 input:-webkit-autofill {
   box-shadow: 0 0 0 1000px #fff6e5 inset;
   -webkit-text-fill-color: var(--color-accent-2)
@@ -138,11 +135,16 @@ input:-webkit-autofill {
 }
 
 .input-pair-1 {
+  display: flex;
+  flex-direction: column;
   top: 290px;
 }
 
 .input-pair-2 {
-  top: 418px;
+  display: flex;
+  flex-direction: column;
+  top: 412px;
+  gap: 5px;
 }
 
 .input-pair-3 {
@@ -181,6 +183,7 @@ div .member-text {
   top: 244px;
   right: 140px;
   font-size: 12px;
+  margin: 0;
 }
 
 div .log-in-text {
@@ -194,4 +197,8 @@ div .member-text,
 div .log-in-text {
   font-family: Balsamiq Sans, Arial;
   position: absolute;
+}
+
+#log-in-form {
+  display: none;
 }
