@@ -3,7 +3,6 @@
  * when the corresponding text links are clicked.
  */
 
-
 const loginText = document.querySelector(".log-in-text");
 const loginForm = document.querySelector("#log-in-form");
 const signupText = document.querySelector(".sign-up-text");
