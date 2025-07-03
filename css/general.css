@@ -69,7 +69,8 @@ body img.awning {
     max-width: none;
   }
 
-  .sign-up-form {
+  #sign-up-form,
+  #log-in-form {
     padding-left: 2vw;
   }
 
@@ -92,7 +93,8 @@ body img.awning {
     max-width: none;
   }
 
-  .sign-up-form {
+  #sign-up-form,
+  #log-in-form {
     padding-left: 4.5vw;
   }
 }
@@ -103,7 +105,8 @@ body img.awning {
     width: 200vw;
     max-width: none;
   }
-  .sign-up-form {
+  #sign-up-form,
+  #log-in-form {
     padding-left: 3.5vw;
   }
 
