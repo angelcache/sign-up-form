@@ -12,10 +12,10 @@ function playAudio() {
 
   if (audio.classList.contains("music-on")) {
     audio.play();
-    musicIcon.setAttribute('src', "../assets/img/music-icon-on.png");
+    musicIcon.setAttribute('src', "assets/img/music-icon-on.png");
   } else {
     audio.pause();
-    musicIcon.setAttribute('src', "../assets/img/music-icon.png")
+    musicIcon.setAttribute('src', "assets/img/music-icon.png")
   }
 
   setTimeout(() => {
